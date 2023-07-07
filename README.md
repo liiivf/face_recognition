@@ -5,6 +5,7 @@ The impressive effect of having the state-of-the-art running on your hands
 ![](https://cdn-images-1.medium.com/max/800/1*LPNkC_og-5l1UGkPuMmzkA.png)
 
 ### Introduction
+[翻译](https://zhuanlan.zhihu.com/p/301188185)
 
 A friend of mine reacted to [my last post](https://medium.com/@estebanuri/real-time-face-mask-recognition-in-android-with-tensorflow-lite-215df6327265) with the following questions: **_“is it possible to make an app that compares faces on mobile_**  **_without an Internet connection? How accurate could it be?_**_”_. At that time I didn’t know the answer for his questions. Surely a deep learning model will do the job, but which one? And will it be light enough to fit in a mobile device? And will it be fast enough? And how accurate could it be? These questions remained in my mind like a “UNIX demon”, until I found the answers. In this article I walk through all those questions in detail, and as a corollary **I provide a working example application** that solves this problem in real time using the state-of-the-art convolutional neural network to accurate verify faces on mobile.
 
